@@ -69,6 +69,68 @@ a {
     width: 264px;
     text-align: right;
   }
+
+  .red{
+    color: #cc0000;
+  }
+
+  .orange{
+    color: #ff9900;
+  }
+
+  .yellow{
+    color: #FF0;
+  }
+
+  .dorange{
+    color: #e05d06;
+  }
+
+  .blue{
+    color: #0000ff;
+  }
+
+  .indigo{
+    color: #4b0082;
+  }
+
+  .violet{
+    color: #800080;
+  }
+
+  .brown{
+    color: #B37040;
+  }
+
+  .maroon{
+    color: #862D26;
+  }
+
+  .sky{
+    color: #7CDCF8;
+  }
+
+  .gray{
+    color: #909193;
+  }
+
+  .forest{
+    color: #008E5D;
+  }
+
+  .lilac{
+    color: #A490CC;
+  }
+
+  .sunshine{
+    color: #ffff66;
+  }
+
+  .pink{
+    color: #ff4d88;
+  }
+
+
 /*******lawrence*****/
   #lawrence{
     height: 700px;

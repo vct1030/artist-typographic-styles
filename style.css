@@ -110,14 +110,14 @@ a {
 
 /*******barbara*****/
   #barbara{
-    height: 800px;
+    height: 900px;
     border: red 25px solid;
     background: url(assets/images/bills.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
   }
 
   #barbara h1{
@@ -128,9 +128,10 @@ a {
   }
 
   #lom{
-    width: 700px;
+    width: 350px;
     font-size: 85px;
-    margin: 0 auto;
+    margin: 30px auto;
+    transform: rotate(-367deg);
   }
 
   #is{
@@ -143,7 +144,7 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
-        transform: rotate(356deg);
+    transform: rotate(-357deg);
   }
 
   #not{
@@ -152,7 +153,7 @@ a {
         position: absolute;
     left: 0;
     right: 0;
-    bottom: 120px;
+    bottom: 150px;
   }
 
   #tr{
@@ -160,7 +161,7 @@ a {
     font-size: 85px;
     margin: 0 auto;
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     left: 0;
     right: 0;
   }

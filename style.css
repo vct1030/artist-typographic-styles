@@ -1,7 +1,12 @@
 @font-face {
   /**how to use custom font here: https://css-tricks.com/snippets/css/using-font-face/**/
   font-family: 'tapeworm';
-  src: url('assets/fonts/tapeworm.ttf')format('truetype'); 
+  src: url('assets/fonts/tapeworm.ttf')format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura Bold Oblique';
+  src: url('assets/fonts/Futura Bold Oblique.otf')format('opentype'); 
 }
 
 * {
@@ -39,7 +44,7 @@ a {
 /*******tauba*******/
   #tauba{
     background-color: #222;
-    height: 700px;
+    height: 800px;
     padding-top: 40px;
   }
 
@@ -71,7 +76,7 @@ a {
   }
 /*******lawrence*****/
   #lawrence{
-    height: 700px;
+    height: 800px;
   }
 
   #contain{
@@ -105,24 +110,64 @@ a {
 
 /*******barbara*****/
   #barbara{
-    height: 700px;
+    height: 800px;
     border: red 25px solid;
-    background: url(assets/images/lighbulbs.jpg) no-repeat center center fixed; 
+    background: url(assets/images/bills.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
   }
 
   #barbara h1{
     color: #fff;
     background-color: red;
-    font-size: 80px;
+    text-align: center;
+    font-family: 'Futura Bold Oblique';
+  }
+
+  #lom{
+    width: 700px;
+    font-size: 85px;
+    margin: 0 auto;
+  }
+
+  #is{
+    height: 120px;
+    width: 110px;
+    font-size: 90px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+        transform: rotate(356deg);
+  }
+
+  #not{
+    width: 70px;
+    margin: 0 auto;
+        position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 120px;
+  }
+
+  #tr{
+    width: 600px;
+    font-size: 85px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
 /*******patrick*****/
   #patrick{
-    height: 700px;
+    height: 800px;
     background-color: #000;
   }
 

@@ -1,0 +1,122 @@
+@font-face {
+  /**how to use custom font here: https://css-tricks.com/snippets/css/using-font-face/**/
+  font-family: 'tapeworm';
+  src: url('assets/fonts/tapeworm.ttf')format('truetype'); 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*******ed**********/
+  #ed{
+  height: 800px;
+  background: url(assets/images/cool.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  }
+
+  #ed h1{
+  margin: 0 auto;
+  width: 95%;
+  font-size: 100px;
+  text-align: center;
+  line-height: 150px;
+  color: #fff;
+  font-family: 'tapeworm';
+  }
+/*******tauba*******/
+  #tauba{
+    background-color: #222;
+    height: 700px;
+    padding-top: 40px;
+  }
+
+  #box{
+    margin: auto;
+    display: table;
+  }
+
+  #tauba h1{
+    font-size: 120px;
+    font-family: 'Overpass Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: -8px;
+    line-height: 100px;
+  }
+
+  #top{
+    margin: 0;
+    margin-bottom: -45px;
+    width: 370px;
+  }
+
+
+  #bottom{
+    margin: 0;
+    margin-left: 268px;
+    width: 264px;
+    text-align: right;
+  }
+/*******lawrence*****/
+  #lawrence{
+    height: 700px;
+  }
+
+  #contain{
+  }
+
+  #lawrence h1{
+    border: 10px solid #2695da;
+    color: #2695DA;
+    margin: 90px 0;
+    display: -webkit-inline-box;
+    font-size: 60px;
+    font-family: 'Teko', sans-serif;
+    word-spacing: 10px;
+  }
+
+  #one{
+    
+  }
+
+  #two{
+    
+  }
+
+  #three{
+    
+  }
+
+  #four{
+    
+  }
+
+/*******barbara*****/
+  #barbara{
+    height: 700px;
+    border: red 25px solid;
+  }
+
+/*******patrick*****/
+  #patrick{
+    height: 700px;
+    background-color: #000;
+  }
+
+@media only screen and (max-width : 768px){
+  #ed h1{
+    font-size: 80px;
+  }
+}

@@ -230,8 +230,52 @@ a {
 
 /*******patrick*****/
   #patrick{
-    height: 800px;
+    height: 900px;
     background-color: #000;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    position: relative;
+  }
+
+  #neon-sign{
+    width: 900px;
+    height: 521px;
+    margin: auto;
+    border: solid 15px white;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff;
+  }
+
+  #patrick h1{
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    line-height: .9;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    font-weight: 100;
+  }
+
+  #rp{
+    font-size: 84px;
+  }
+
+  #obsolete{
+    font-size: 159px;
+  }
+
+  #af{
+    font-size: 175px;
+    letter-spacing: 13px;
+    word-spacing: 28px;
+  }
+
+  #ap{
+    font-size: 130px;
   }
 
 @media only screen and (max-width : 768px){

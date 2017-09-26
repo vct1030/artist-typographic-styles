@@ -285,7 +285,63 @@ a {
 }
 
 @media only screen and (max-width : 420px){
-  #ed h1{
+  /*****ed******/
+    #ed{
+      padding-top: 20px;
+    }
+    #ed h1{
+      font-size: 40px;
+    }
+  /*****tauba*****/
+
+    #tauba{
+      height: 600px;
+    }
+    #tauba h1{
+      font-size: 45px;
+      letter-spacing: 0px;
+      width: 150px;
+      line-height: 35px;
+    }
+
+    #top, #bottom{
+      width: auto;
+    }
+
+    #bottom{
+      margin-left: 100px;
+    }
+  /******lawrence******/
+    #lawrence h1, #barbara h1{
+      font-size: 20px;
+    }
+
+    #lom, #tr{
+      width: 200px;
+    }
+ /******patrick*******/
+    #patrick{
+      height: 700px;
+    }
+    #neon-sign{
+      width: 250px;
+      border: solid white 10px;
+      border-radius: 10px;
+    } 
+
+    #rp{
+      font-size: 20px;
+    }
+
+    #obsolete{
+      font-size: 20px;
+    }
+
+    #af{
+      font-size: 20px;
+    }
+
+    #ap{
     font-size: 20px;
-  }
+    }
 }
